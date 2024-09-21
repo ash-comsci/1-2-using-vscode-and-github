@@ -11,7 +11,7 @@ You are reading a Git _repository_ (aka repo). It is a package of files that hav
 Before you can use GitHub in your VSCode, you need to make sure your info is correct. **This only has to be done once (per computer)**.
 1. If you don't see a terminal in the bottom, open one (Terminal > New Terminal)
 2. Enter this: `git config --global user.name "Your Name"`   * use _your_ name, for example Mr. Jamieson
-3. Not enter: `git config --global user.email "first.last@stu.ocsb.ca"`  * use _your_ email address for example mrsquirrel@stu.ocsb.ca
+3. Not enter: `git config --global user.email "first.last@stu.ocsb.ca"`  * use _your_ email address for example mrj@stu.ocsb.ca
 
 ## Let's download this repo and edit it inside VSCode
 
