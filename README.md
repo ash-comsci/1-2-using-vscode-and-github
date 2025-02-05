@@ -13,7 +13,7 @@ Before you can use GitHub in your VSCode, you need to make sure your info is cor
 2. Enter this: `git config --global user.name "Your Name"`   * use _your_ name, for example Mr. Jamieson
 3. Not enter: `git config --global user.email "first.last@stu.ocsb.ca"`  * use _your_ email address for example mrj@stu.ocsb.ca
 
-## Let's download this repo and edit it inside VSCode
+## Let's download this repo and edit it inside VSCode Codespace
 
 You have two options that do the same thing.<br>
 In both cases, you will need the web address (URL) of the repo you want to edit.
@@ -28,16 +28,14 @@ You have to close your current work in VSCode by going to **FILE > Close Folder*
 - You might be asked if you want to open the workspace - yes, click Open
 
 ### Option 2:
-- Use the keyboard shortcut CTRL+SHIFT+P
-- In the search panel that pops-up type **clone**
-- Select **Git: Clone**
-- Paste the URL to the repository and hit ENTER
-- You'll be asked where to save the code on your computer (_don't select "My Drive"_)
-- You might be asked if you want to open the workspace - yes, click Open
+- Use the available Codespace to run a virtual VS Code
+- Click on the Green Code button and then the Codespaces Tab
+- Click on the + to create a new codespace or click on Create codespace on main
+- This will then open up your repository in a virtual setting without the need to install software.
 
 ## Saving changes to your code
 
-Your code will save to your local computer while you work, but the _history_ is not created automatically.
+Your code will save to your local computer while you work, but the _history_ is not created automatically. Or if using Codespace it will save automatically, but will need to be committed to GitHub to save it to the Cloud.
 
 ### Create a 'Snapshot' of the repo:
 
@@ -50,7 +48,7 @@ Your code will save to your local computer while you work, but the _history_ is 
 This created a new snapshot of the code changes, in case you ever want to go back.
 
 ### Push (upload) your changes back to GitHub
-After you commit, the `Commit` button should change to `Synch Changes` or something similar. Click that to upload your code to GitHub.
+After you commit, the `Commit` button should change to `Sync Changes` or something similar. Click that to upload your code to GitHub.
 
 ### [Your Task](./YOUR_TASK.md)  (click)
 
